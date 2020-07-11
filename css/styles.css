@@ -1,4 +1,14 @@
-div {
-    height: 100px;
-    width: 50%;
+.container {
+    position: relative;
+}
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+img {
+    width: 100%;
+    height: auto;
+    opacity: 0.4;
 }
