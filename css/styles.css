@@ -1,3 +1,7 @@
+body {
+    background-color: transparent;
+}
+/* container with image with texts within */
 .container {
     position: relative;
 }
@@ -17,20 +21,25 @@ img {
     position: absolute;
     top: 20px;
     left: 20px;
-    background-color: black;
+    background-color: gray;
     color: white;
     padding-left: 40px;
     padding-right: 40px;
 }
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* header of second section */
 h1 {
     color: turquoise;
     background-color: black;
     text-align: center;
 }
-body {
-    background-color: black;
-}
-
+/* buttons found at header */
 .button {
     background-color: blue;
     border-radius: 8px;
@@ -39,4 +48,29 @@ body {
     text-align: center;
     font-size: 16px;
     cursor: pointer;
+}
+/* about me page */
+.About-me {
+    background-color: white;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 10%;
+    background-color: thistle;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#col {
+    background-color: grey;
+}
+
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+
 }
